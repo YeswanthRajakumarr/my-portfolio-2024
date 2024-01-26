@@ -3,21 +3,21 @@ import { FaStar } from "react-icons/fa";
 
 export const NavBar = () => {
   return (
-    <nav className="text-base flex justify-between">
+    <nav className="flex items-center justify-between text-base">
       <div>
-        <ul className="flex justify-around gap-7 font-normal leading-6">
+        <ul className="flex justify-around font-normal leading-6 gap-7">
           <li className="font-semibold">Home</li>
           <li>Projects</li>
           <li>Snippets</li>
           <li>Blogs</li>
         </ul>
       </div>
-      <button className="border bg-cus-tansperant rounded-lg border-solid border-black inline-flex items-center p-1">
+      <button className="inline-flex items-center p-1 border border-black border-solid rounded-lg bg-cus-tansperant">
         <FaStar
           className="justify-center align-middle w-[24px] h-6 shrink-0  rounded-lg  p-1"
           href="https://github.com/YeswanthRajakumar"
         />
-        <p className="text-sm p-1"> me on Github</p>
+        <p className="p-1 text-sm"> me on Github</p>
       </button>
     </nav>
   );
