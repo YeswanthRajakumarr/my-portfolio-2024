@@ -6,7 +6,15 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      Ibmplex: ["IBM Plex Sans", "sans-serif"],
+      serif: ["Merriweather", "serif"],
+    },
     extend: {
+      colors:{
+        'cus-tansperant': '#F5F5F552',
+        
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
