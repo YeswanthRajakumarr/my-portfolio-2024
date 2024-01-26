@@ -12,12 +12,12 @@ export const NavBar = () => {
           <li>Blogs</li>
         </ul>
       </div>
-      <button className="inline-flex items-center p-1 border border-black border-solid rounded-lg bg-cus-tansperant">
+      <button className="inline-flex items-center p-1 border border-black border-solid rounded-lg bg-cus-tansperant ">
         <FaStar
           className="justify-center align-middle w-[24px] h-6 shrink-0  rounded-lg  p-1"
           href="https://github.com/YeswanthRajakumar"
         />
-        <p className="p-1 text-sm"> me on Github</p>
+        <p className="p-1 text-sm  max-[470px]:hidden"> me on Github</p>
       </button>
     </nav>
   );

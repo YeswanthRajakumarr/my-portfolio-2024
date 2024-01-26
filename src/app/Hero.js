@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div className="flex mt-10 gap-2 ">
+    <div className="flex mt-10 gap-2 max-[505px]:flex-col-reverse">
       <div>
         <div className="">
-          <p className="text-black text-5xl font-bold leading-[37px] tracking-[-1.2px]">
+          <p className="text-black text-5xl font-bold leading-[37px] tracking-[-1.2px] max-[585px]:text-4xl">
             Yeswanth Rajakumar
           </p>
           <p className="font-normal text-base leading-6 mt-3">

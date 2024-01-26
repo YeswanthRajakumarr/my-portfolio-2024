@@ -1,7 +1,6 @@
 import React from "react";
 import { ProjectCard } from "./ProjectCard";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { FaStar } from "react-icons/fa";
 
 export const sideProjectsdata = [
   {
@@ -30,7 +29,7 @@ export const SideProjects = () => {
       <h1 className="w-[410 px] text-black text-[35px] not-italic font-bold leading-[37px] tracking-[-1.2px]">
         Side Projects
       </h1>
-      <div className="lg:mt-1">
+      <div className="lg:mt-4  max-[505px]:mt-2">
         <ul>
           {sideProjectsdata.map((project) => (
             <ProjectCard
