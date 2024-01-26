@@ -5,13 +5,12 @@ import { MdArrowOutward } from "react-icons/md";
 export const ProjectCard = ({ icon, title, description, url }) => {
   return (
     <div>
-      <li className="mt-4 transition duration-500 rounded-lg hover:bg-cus-tansperant">
-        
-        <div className="md:w-[594px] md:h-[65px] w-full h-auto flex flex-row md:justify-between px-3 ">
+      <li className="mt-4 transition duration-500 rounded-lg hover:bg-cus-tansperant sm:mt-6">
+        <div className="md:w-[594px] h-[65px]  flex flex-row justify-between px-3 ">
           <div className="flex flex-col items-center md:flex-row md:gap-2">
-            <div className="md:w-[40px] md:h-10 ">
+            <div>
               <Image
-                className="w-full h-full p-1 bg-white border rounded-lg"
+                className="w-[40px] h-10 shrink-0 border rounded-lg  bg-white p-1 "
                 src={icon}
                 width={40}
                 height={40}
@@ -20,7 +19,7 @@ export const ProjectCard = ({ icon, title, description, url }) => {
             </div>
 
             <div className="mt-2 md:mt-0">
-              <h1 className="text-base font-medium leading-4 md:text-lg md:leading-5">
+              <h1 className="text-base font-medium leading-4 md:text-lg">
                 {title}
               </h1>
               <p className="text-[#444] text-sm md:text-base not-italic font-light leading-6 md:leading-7">
@@ -36,7 +35,6 @@ export const ProjectCard = ({ icon, title, description, url }) => {
           </div>
         </div>
       </li>
-      
     </div>
   );
 };

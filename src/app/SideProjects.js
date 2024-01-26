@@ -30,7 +30,7 @@ export const SideProjects = () => {
       <h1 className="w-[410 px] text-black text-[35px] not-italic font-bold leading-[37px] tracking-[-1.2px]">
         Side Projects
       </h1>
-      <div>
+      <div className="lg:mt-1">
         <ul>
           {sideProjectsdata.map((project) => (
             <ProjectCard
