@@ -7,9 +7,9 @@ export const NavBar = () => {
       <div>
         <ul className="flex justify-around font-normal leading-6 gap-7">
           <li className="font-semibold">Home</li>
-          <li>Projects</li>
-          <li>Snippets</li>
+          <li>Work</li>
           <li>Blogs</li>
+          <li>Guestbook</li>
         </ul>
       </div>
       <button className="inline-flex items-center p-1 border border-black border-solid rounded-lg bg-cus-tansperant ">
