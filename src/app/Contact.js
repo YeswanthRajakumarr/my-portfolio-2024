@@ -8,7 +8,7 @@ export const Contact = () => {
       <h1 className="w-[410 px] text-black text-[35px] not-italic font-bold leading-[37px] tracking-[-1.2px]">
         Get in Touch with me
       </h1>
-      <div className="  rounded-lg  p-8 flex justify-center gap-3 mt-3 contact-form">
+      <div className="bg-gradient-animation  rounded-lg  p-8 flex justify-center gap-3 mt-3 contact-form">
         <div>
           <a href="https://github.com/YeswanthRajakumar" target="_blank">
             <button className="bg-white p-1 border border-black border-solid rounded-md ">
