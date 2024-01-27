@@ -29,7 +29,7 @@ export const SideProjects = () => {
       <h1 className="w-[410 px] text-black text-[35px] not-italic font-bold leading-[37px] tracking-[-1.2px]">
         Side Projects
       </h1>
-      <div className="lg:mt-4  max-[505px]:mt-2">
+      <div className="lg:mt-4  max-[505px]:mt-2 ">
         <ul>
           {sideProjectsdata.map((project) => (
             <ProjectCard
@@ -41,11 +41,7 @@ export const SideProjects = () => {
             />
           ))}
         </ul>
-        <a
-
-          href="https://github.com/YeswanthRajakumar"
-          target="_blank"
-        >
+        <a href="https://github.com/YeswanthRajakumar" target="_blank">
           <button className="inline-flex items-center p-1 mt-4 all-project-btn">
             <p className="p-1 text-base  ">see more projects</p>
             <IoIosArrowRoundForward className="justify-center align-middle w-[24px] h-6 rounded-lg  p-1" />

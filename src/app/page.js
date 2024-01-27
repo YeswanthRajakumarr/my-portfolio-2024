@@ -3,7 +3,7 @@ import { NavBar } from "./NavBar";
 import { Hero } from "./Hero";
 import { SideProjects } from "./SideProjects";
 import { Talks } from "./Talks";
-
+import { Contact } from "./Contact";
 export default function Home() {
   return (
     <>
@@ -11,7 +11,8 @@ export default function Home() {
       <Hero />
       <SideProjects />
       <Talks />
-      
+      <Contact />
+      {/* <Footer /> */}
     </>
   );
 }
