@@ -17,7 +17,7 @@ export const Hero = () => {
         <div className=" mt-3">
           <p className="text-[#444] text-base not-italic font-normal leading-6">
             XP practitioner, helping developers to craft scalable apps 🚀. I
-            talk about software development, interview readiness, and enhancing
+            talk about software development, interview readiness and enhancing
             professional profiles.
           </p>
         </div>
