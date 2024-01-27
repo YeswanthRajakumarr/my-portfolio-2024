@@ -8,9 +8,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div className="w-full h-auto max-w-3xl px-4 pt-4 mx-auto lg:px-20 md:pt-10 ">
+        <div className="w-full h-full max-w-3xl px-4 pt-4 mx-auto lg:px-20 md:pt-10 ">
           {children}
         </div>
+
       </body>
     </html>
   );

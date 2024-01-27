@@ -4,11 +4,11 @@ import { SiGmail } from "react-icons/si";
 
 export const Contact = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10 ">
       <h1 className="w-[410 px] text-black text-[35px] not-italic font-bold leading-[37px] tracking-[-1.2px]">
         Get in Touch with me
       </h1>
-      <div className=" bg-cus-tansperant rounded-lg  p-8 flex justify-center gap-3 mt-3">
+      <div className="  rounded-lg  p-8 flex justify-center gap-3 mt-3 contact-form">
         <div>
           <a href="https://github.com/YeswanthRajakumar" target="_blank">
             <button className="bg-white p-1 border border-black border-solid rounded-md ">
@@ -37,10 +37,11 @@ export const Contact = () => {
         </div>
 
         <div>
-          <a href="https://twitter.com/YeswanthRajaku3" target="_blank"></a>
-          <button className="bg-white p-1 border border-black border-solid rounded-md ">
-            <FaTwitter className=" w-[24px] h-6 rounded-lg  p-1" />
-          </button>
+          <a href="https://twitter.com/YeswanthRajaku3" target="_blank">
+            <button className="bg-white p-1 border border-black border-solid rounded-md ">
+              <FaTwitter className=" w-[24px] h-6 rounded-lg  p-1" />
+            </button>
+          </a>
         </div>
       </div>
     </div>
