@@ -41,16 +41,14 @@ export const SideProjects = () => {
             />
           ))}
         </ul>
-        <a href="https://www.browserstack.com/responsive" target="_blank">
-          <button
-            className="inline-flex items-center p-1 mt-4 all-project-btn"
-            href="https://www.browserstack.com/responsive"
-          >
-            <p className="p-1 text-sm">see more projects</p>
-            <IoIosArrowRoundForward
-              className="justify-center align-middle w-[24px] h-6 rounded-lg  p-1"
-              href="https://github.com/YeswanthRajakumar"
-            />
+        <a
+
+          href="https://github.com/YeswanthRajakumar"
+          target="_blank"
+        >
+          <button className="inline-flex items-center p-1 mt-4 all-project-btn">
+            <p className="p-1 text-base  ">see more projects</p>
+            <IoIosArrowRoundForward className="justify-center align-middle w-[24px] h-6 rounded-lg  p-1" />
           </button>
         </a>
       </div>
