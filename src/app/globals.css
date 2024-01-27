@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  @apply h-[1624px];
+  @apply h-full;
   background: linear-gradient(
     216deg,
     rgba(239, 255, 55, 0.33) 1.45%,
@@ -22,25 +22,26 @@ div {
 } */
 
 .bg-gradient-animation {
-	background: linear-gradient(-216deg,
-  rgba(239, 255, 55, 0.33) 1.45%,
-  rgba(249, 169, 157, 0.56) 32.27%,
-  rgba(255, 118, 217, 0.2) 48.86%,
-  rgba(226, 184, 237, 0.44) 58.17%,
-  rgba(200, 242, 255, 0.67) 80.36%
+  background: linear-gradient(
+    -216deg,
+    rgba(239, 255, 55, 0.33) 1.45%,
+    rgba(249, 169, 157, 0.56) 32.27%,
+    rgba(255, 118, 217, 0.2) 48.86%,
+    rgba(226, 184, 237, 0.44) 58.17%,
+    rgba(200, 242, 255, 0.67) 80.36%
   );
-	background-size: 400% 400%;
-	animation: gradient 4s ease infinite;
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
