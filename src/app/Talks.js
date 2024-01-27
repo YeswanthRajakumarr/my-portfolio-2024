@@ -1,10 +1,10 @@
 import React from "react";
 
 const talksData = [
-  { Topic: "One Day World on Rust", Place: "SRIT", Year: "2023" },
-  { Topic: "Masterclass on Rust", Place: "SRIT", Year: "2023" },
+  { Topic: "One Day Workshop on Rust", Place: "SRIT", Year: "2023" },
+  { Topic: "Masterclass on Rust", Place: "BIET", Year: "2023" },
   { Topic: "Rust for Automotive", Place: "Rust India", Year: "2023" },
-  { Topic: "Dynamic Programming in Action", Place: "KCT", Year: "2023" },
+  { Topic: "DSA in Action", Place: "KCT", Year: "2023" },
   { Topic: "Elevate your Resume", Place: "KCT", Year: "2023" },
   { Topic: "How to Git ?", Place: "KCT", Year: "2022" },
 ];
