@@ -16,8 +16,9 @@ export const Hero = () => {
         </div>
         <div className=" mt-3">
           <p className="text-[#444] text-base not-italic font-normal leading-6">
-            Helping developers build a faster web. Teaching about web
-            development, serverless, and React / Next.js.
+            XP practitioner, helping developers to craft scalable apps 🚀. I
+            talk about software development, interview readiness, and enhancing
+            professional profiles.
           </p>
         </div>
       </div>
