@@ -1,15 +1,21 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-
+import Link from "next/link";
 export const NavBar = () => {
   return (
     <nav className="flex items-center justify-between text-base">
       <div>
         <ul className="flex justify-around font-normal leading-6 gap-7">
           <li className="font-semibold">Home</li>
-          <li>Work</li>
-          <li>Blogs</li>
-          <li>Guestbook</li>
+          <li>
+            <a href="https://medium.com/@yeswanthjayanthi">Blogs</a>
+          </li>
+          <li>
+            <Link href="/work">Work</Link>
+          </li>
+          <li>
+            <Link href="/certifications">Certifications</Link>
+          </li>
         </ul>
       </div>
       <a

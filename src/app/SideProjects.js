@@ -4,22 +4,24 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 export const sideProjectsdata = [
   {
-    icon: "/mac-os.png",
-    title: "Apple",
-    description: "lorem ipsomerum non proident du one mauris in hendrerit",
-    url: "https://www.google.com/",
+    icon: "/images/cache.png",
+    title: "FS cache",
+    description:
+      "File-based key-value data store inspired by redis",
+    url: "https://github.com/YeswanthRajakumar/FileSytem-Based-DataStore",
   },
   {
-    icon: "/twitter.png",
-    title: "Twitter",
-    description: "lorem ipsomerum non proident du one mauris in hendrerit",
-    url: "https://www.google.com/",
+    icon: "/images/netflix.png",
+    title: "Netflix clone",
+    description: "Done this as a part of reat js learning exercise with IMDB api",
+    url: "https://netflixclone-400e4.web.app/",
   },
   {
-    icon: "/nike.png",
-    title: "Just do it",
-    description: "lorem ipsomerum non proident du one mauris in hendrerit",
-    url: "https://www.google.com/",
+    icon: "/images/coronavirus.png",
+    title: "Covid Visulaizer",
+    description:
+      "Visualize the rate of affection of covid-19 from disease.sh data",
+    url: "https://react-covid-tracker-fd3b3.web.app/",
   },
 ];
 

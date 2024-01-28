@@ -25,7 +25,7 @@ export const Hero = () => {
       <div className="">
         <Image
           className="rounded-full"
-          src="/yeswanth.png"
+          src="/images/yeswanth.png"
           width={180}
           height={180}
           alt="Picture of the author"
