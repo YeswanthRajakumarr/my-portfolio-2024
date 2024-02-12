@@ -13,7 +13,7 @@ export const sideProjectsdata = [
   {
     icon: "/images/netflix.png",
     title: "Netflix clone",
-    description: "Done this as a part of reat js learning exercise with IMDB api",
+    description: "Done this as a part of react js learning exercise with IMDB api",
     url: "https://netflixclone-400e4.web.app/",
   },
   {
